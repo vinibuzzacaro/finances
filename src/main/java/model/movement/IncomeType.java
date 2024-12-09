@@ -22,4 +22,6 @@ public enum IncomeType implements MovementType {
             default -> throw new Exception("Could not parse string to IncomeType enum variant");
         };
     }
+
+    public void do_nothing() {}
 }
